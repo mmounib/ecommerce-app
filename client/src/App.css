@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  background-color: #013220;
+  padding: 9px 22px;
+  border-radius: 5px;
+  color: lightblue;
+}
