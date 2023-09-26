@@ -1,3 +1,4 @@
+import Features from './components/HomeSection/Features'
 import Home from './components/HomeSection/Home'
 import ManageIcons from './components/HomeSection/ManageIcons'
 import ShopNow from './components/HomeSection/ShopNow'
@@ -12,4 +13,5 @@ export {
     Footer,
     ShopNow,
     Trends,
+    Features,
 }

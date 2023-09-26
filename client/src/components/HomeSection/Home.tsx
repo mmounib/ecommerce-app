@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ShopNow, Trends } from "../../exports";
+import { Features, ShopNow, Trends } from "../../exports";
 
 const Home = () => {
   return (
@@ -27,12 +27,13 @@ const Home = () => {
           <img
             src="../../../src/assets/shopimage.jpg"
             alt="ShopImage"
-            className="w-[870px] absolute h-[600px]"
+            className="w-[870px] absolute max-sm:relative h-[600px]"
           />
         </div>
       </section>
       <ShopNow />
       <Trends />
+      <Features />
     </>
   );
 };
