@@ -1,3 +1,4 @@
+import Cards from './components/HomeSection/Cards'
 import Features from './components/HomeSection/Features'
 import Home from './components/HomeSection/Home'
 import ManageIcons from './components/HomeSection/ManageIcons'
@@ -14,4 +15,5 @@ export {
     ShopNow,
     Trends,
     Features,
+    Cards,
 }
